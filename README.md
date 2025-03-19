@@ -1,21 +1,19 @@
-# Global-Methane-Emission-Datasets-A-Comprehensive-Overview
-
 # 🌍 Global Methane Emission Datasets: A Comprehensive Overview
 
-This repository provides an overview of various methane emission datasets, detailing their descriptions, temporal coverage, spatial resolution, scale, and sources.
+This repository provides an overview of various methane emission datasets, detailing their descriptions, temporal coverage, spatial resolution, scale, data format, and sources.
 
 ## 📊 Dataset Table
 
-| Dataset Name | Description | Temporal Coverage | Spatial Resolution | Scale | Source |
-|--------------|-------------|-------------------|--------------------|-------|--------|
-| **Global Methane Emissions Data** | Provides measurements and projections of methane emissions across various industry sectors. | 2015–2050 | Not specified | Global | [Global Methane Initiative](https://globalmethane.org/methane-emissions-data.aspx) |
-| **Methane Tracker Data Explorer** | Offers regional and country-specific estimates of energy-related methane emissions, including abatement potentials. | Up to 2023 | Not specified | Global | [International Energy Agency](https://www.iea.org/data-and-statistics/data-tools/methane-tracker-data-explorer) |
-| **NOAA Global Monitoring Laboratory Methane Trends** | Displays globally averaged, monthly mean atmospheric methane concentrations from marine surface sites. | 1983–present | Not applicable | Global | [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/ccgg/trends_ch4/) |
-| **Global Methane Budget** | Presents a comprehensive quantification of global methane sources and sinks, highlighting anthropogenic contributions. | 2008–2017 | Not specified | Global | [Global Carbon Project](https://www.globalcarbonproject.org/methanebudget/20/hl-compact.htm) |
-| **Emissions Database for Global Atmospheric Research (EDGAR)** | Estimates emissions of all greenhouse gases, air pollutants, and aerosols. | Not specified | Not specified | Global | [European Commission Joint Research Centre](https://data.jrc.ec.europa.eu/collection/edgar) |
-| **Methane Emissions from Rivers and Streams** | Provides spatially explicit global estimates of methane emissions from running waters. | Not specified | Not specified | Global | [Nature Journal](https://www.nature.com/articles/s41586-023-06344-6) |
-| **Global Methane Tracker 2024** | Offers country and regional estimates for methane emissions and abatement options. | Up to 2023 | Not specified | Global | [International Energy Agency](https://www.iea.org/reports/global-methane-tracker-2024) |
-| **Methane Emissions – Our World in Data** | Provides datasets describing the global warming response to national methane emissions from fossil and land use sources. | Up to 2023 | Not specified | Global | [Our World in Data](https://ourworldindata.org/grapher/methane-emissions) |
+| Dataset Name | Description | Temporal Coverage | Spatial Resolution | Scale | Data Format | Source |
+|--------------|-------------|-------------------|--------------------|-------|-------------|--------|
+| **Global-Gridded Daily Methane Emissions from Inland Dam-Reservoir Systems** | Provides global maps of methane emissions from inland dam-reservoir systems at 0.25-degree spatial resolution. | 2002–2015 | 0.25° x 0.25° | Global | Raster | [ORNL DAAC](https://daac.ornl.gov/NACP/guides/Global_Reservoirs_Methane.html) |
+| **High-Resolution Satellite-Based Map of Global Methane Emissions** | Reveals missing wetland, fossil fuel, and monsoon sources using satellite data. | Not specified | High-resolution (specific resolution not provided) | Global | Raster | [Atmospheric Chemistry and Physics](https://acp.copernicus.org/articles/23/3325/2023/) |
+| **GOSAT-Based Top-Down Total and Natural Methane Emissions** | Provides global methane emissions estimates based on GOSAT satellite data. | 2010–2022 | 4° x 5° | Global | Raster | [NASA GHG Center](https://earth.gov/ghgcenter/data-catalog/gosat-based-ch4budget-yeargrid-v1) |
+| **Wetland Methane Emissions, LPJ-EOSIM Model** | Offers global monthly and daily estimates of wetland methane emissions at 0.5-degree resolution. | Not specified | 0.5° x 0.5° | Global | Raster | [NASA GHG Center](https://earth.gov/ghgcenter/data-catalog/lpjeosim-wetlandch4-grid-v1) |
+| **US Gridded Anthropogenic Methane Emissions Inventory** | Provides spatially disaggregated maps of annual US anthropogenic methane emissions from over 25 emission sources. | Not specified | 0.1° x 0.1° | National (USA) | Raster | [NASA EarthData](https://www.earthdata.nasa.gov/dashboard/data-catalog/epa-ch4emission-yeargrid-v2express-manure) |
+| **Global-Gridded Daily Methane Emissions Climatology from Lake Systems** | Provides global gridded information on lake surface area and open water methane emissions at 0.25-degree resolution. | 2003–2015 | 0.25° x 0.25° | Global | Raster | [ORNL DAAC](https://daac.ornl.gov/CLIMATE/guides/Global_Lakes_Methane.html) |
+| **MethaneAIR L4 Area Sources v1** | Provides spatially disaggregated methane emission fluxes using measurements from MethaneAIR flights over US oil and gas producing regions. | 2021–2023 | 500 meters | Regional (USA) | Raster | [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/EDF_MethaneSAT_MethaneAIR_L4area) |
+| **Pilot Top-Down Methane Emissions Estimates by Sector and Country** | Offers methane emissions estimates by sector and country at 1-degree resolution. | 2019 | 1° x 1° | Global | Raster | [CEOS GST](https://ceos.org/gst/methane.html) |
 
 ## 📌 Notes:
 - These datasets offer valuable insights into methane emissions across various sectors and regions.
